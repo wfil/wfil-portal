@@ -1,0 +1,19 @@
+@import '../../../scss/abstracts';
+
+header {
+  padding: 2rem;
+
+  ul {
+    list-style-type: none;
+    display: flex;
+
+    li {
+      margin-left: 3rem;
+      font-size: 2rem;
+      font-weight: 300;
+      a {
+        color: $color-primary;
+      }
+    }
+  }
+}

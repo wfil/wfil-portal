@@ -10,9 +10,7 @@ const Footer = () => {
 
   return (
     <footer>
-      <div>Footer</div>
-      <button onClick={() => dispatch(setLanguage('es'))}>ES</button>
-      <button onClick={() => dispatch(setLanguage('en'))}>ES</button>
+      &copy; 2020 WFIL Labs.
     </footer>
   )
 }

@@ -1,0 +1,25 @@
+.home-hero {
+  position: relative;
+  min-height: 70vh;
+  padding: 10rem;
+
+
+  .logo-bg {
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    opacity: 0.1;
+  }
+
+  h1 {
+    font-weight: 300;
+    font-size: 7rem;
+  }
+
+  h2 {
+    font-weight: 300;
+    font-size: 6rem;
+    max-width: 60%;
+    margin-top: 5%;
+  }
+}

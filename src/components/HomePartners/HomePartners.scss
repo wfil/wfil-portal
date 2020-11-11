@@ -1,0 +1,39 @@
+@import '../../scss/abstracts';
+
+.home-partners {
+  padding: 5rem;
+
+  h3 {
+    font-size: 3rem;
+    font-weight: 300;
+    text-align: center;
+
+  }
+
+  .home-partners-logos {
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .home-partners-logos-row {
+      @include flex-complete($justify: space-between);
+
+      .home-partners-logos-item {
+        flex: 0 0 20%;
+        img { max-width: 100%; }
+
+        &.logo-auto {
+          text-align: center;
+          img { 
+            height: 90px;
+            width: auto; 
+          }
+        }
+      }
+  
+    }
+
+  }
+
+}
