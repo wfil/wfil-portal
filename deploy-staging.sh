@@ -1,0 +1,1 @@
+npm run build:staging && aws s3 --profile iamtech sync build/ s3://app-wfil-website-staging

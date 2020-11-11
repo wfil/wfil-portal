@@ -1,0 +1,1 @@
+npm run build:prod && aws s3 --profile iamtech sync build/ s3://app-wfil-website-prod

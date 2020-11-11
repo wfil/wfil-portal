@@ -1,0 +1,33 @@
+.flex-horizontal-spacebetween-center{
+  @include flex-complete($direction: row, $justify: space-between, $align: center, $wrap: nowrap)
+}
+
+.flex-horizontal-start-center{
+  @include flex-complete($direction: row, $justify: flex-start, $align: center, $wrap: nowrap)
+}
+
+.flex-horizontal-end-center{
+  @include flex-complete($direction: row, $justify: flex-end, $align: center, $wrap: nowrap)
+}
+
+.flex-vertical-start-center{
+  @include flex-complete($direction: row, $justify: flex-start, $align: center, $wrap: nowrap)
+}
+
+.flex-vertical-start-left{
+  @include flex-complete($direction: row, $justify: flex-start, $align: flex-start, $wrap: nowrap)
+}
+
+// fix floats
+.clearfix{
+  @include clearfix;
+}
+
+// display helpers
+.hide{
+  display: hidden;
+}
+
+.none{
+  display: none;
+}
