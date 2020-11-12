@@ -4,24 +4,29 @@
   padding: 5rem;
 
   h3 {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 300;
     text-align: center;
 
   }
 
   .home-partners-logos {
-    padding-top: 8rem;
+    padding-top: 3rem;
     padding-bottom: 3rem;
     max-width: 1200px;
     margin: 0 auto;
 
     .home-partners-logos-row {
-      @include flex-complete($justify: space-between);
+      @include flex-complete($justify: center);
+      margin-bottom: 5rem;
 
       .home-partners-logos-item {
-        flex: 0 0 20%;
-        img { max-width: 100%; }
+        flex: 0 0 17%;
+        margin: 0 4%;
+        img { 
+          max-width: 100%;
+          filter: grayscale(100%);
+        }
 
         &.logo-auto {
           text-align: center;

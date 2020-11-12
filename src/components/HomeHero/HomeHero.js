@@ -10,7 +10,7 @@ const HomeHero = () => {
       <div className="logo-bg">
         <Logo size="400%" />
       </div>
-      <h1>Wrapped Filecoin (WFIL)</h1>
+      <h1>Wrapped Filecoin <span className="blue">(WFIL)</span></h1>
       <h2>The First Filecoin Wrapped Token on Ethereum</h2>
     </div>
   )

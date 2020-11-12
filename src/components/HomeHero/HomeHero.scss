@@ -1,8 +1,10 @@
+@import '../../scss/abstracts';
+
 .home-hero {
   position: relative;
-  min-height: 70vh;
+  min-height: 65vh;
   padding: 10rem;
-
+  
 
   .logo-bg {
     position: absolute;
@@ -21,5 +23,9 @@
     font-size: 6rem;
     max-width: 60%;
     margin-top: 5%;
+  }
+
+  .blue {
+    color: $color-primary;
   }
 }
