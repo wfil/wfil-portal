@@ -39,7 +39,7 @@ const RequestAccess = () => {
         ? (<p>Thank you! follow our path to mainnet launch in our community channels</p>)
         : (
           <>
-            <p>Stay tunned for mainnet launch</p>
+            <p>Stay Tuned for Mainnet Launch! 🚀</p>
             <div className="request-access-form-input">
               <input
                 className={formError ? 'has-error' : ''}
