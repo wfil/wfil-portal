@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Logo from '../Logo';
+import RequestAccess from '../RequestAccess';
 
 import './HomeHero.scss';
 
@@ -12,6 +13,7 @@ const HomeHero = () => {
       </div>
       <h1>Wrapped Filecoin <span className="blue">(WFIL)</span></h1>
       <h2>The First Filecoin Wrapped Token on Ethereum</h2>
+      <RequestAccess />
     </div>
   )
 }
