@@ -25,10 +25,10 @@ const HomePartners = () => {
     <div className="home-partners">
       <h3>Partners</h3>
       <div className="home-partners-logos">
-        {PARTNERS.map(partnersRow => (
-          <div className="home-partners-logos-row">
+        {PARTNERS.map((partnersRow, i) => (
+          <div key={i} className="home-partners-logos-row">
             {partnersRow.map(({img, url, style = {}}) => (
-              <div className="home-partners-logos-item" style={style}>
+              <div key={url} className="home-partners-logos-item" style={style}>
                 <a href={url} target="_blank" rel="noopener noreferrer"><img src={img}/></a>
               </div>
             ))}

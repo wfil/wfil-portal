@@ -1,0 +1,29 @@
+@import '../../scss/abstracts';
+
+#t-signup {
+  display: none;
+}
+
+.request-access-form {
+  margin-top: 30px;
+
+  p {
+    font-size: 2rem;
+  }
+
+  .request-access-form-input{
+    margin: 10px 0;
+
+    input {
+      font-size: 1.6rem;
+      padding: .8rem;
+      border-radius: 4px;
+      min-width: 200px;
+      border: 1px solid $color-primary;
+
+      &.has-error {
+        border-color: red;
+      }
+    }
+  }
+}
