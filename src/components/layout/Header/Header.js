@@ -19,7 +19,7 @@ const Header = () => {
         <ul className={menuOpen ? 'is-open' : ''}>
           <li><a href="https://twitter.com/wrappedfil" target="_blank" rel="noopener noreferrer">Twitter</a></li>
           <li><a href="https://wrapped-filecoin.slack.com" target="_blank" rel="noopener noreferrer">Slack</a></li>
-          <li><a href="https://discord.gg/gdfRGW8EB6" target="_blank" rel="noopener noreferrer">Discord</a></li>
+          <li><a href="https://discord.link/wfil" target="_blank" rel="noopener noreferrer">Discord</a></li>
           <li><a href="https://github.com/wfil" target="_blank" rel="noopener noreferrer">Github</a></li>
           <li><a href="https://medium.com/wfil" target="_blank" rel="noopener noreferrer">Blog</a></li>
           <li><Button alias="link" target="_blank" rel="noopener noreferrer" href="https://app.wfil.network">Launch app</Button></li>
