@@ -10,13 +10,13 @@ import './HomePartners.scss';
 
 const PARTNERS = [
   [
-    { img: consensysLabs, url: 'https://labs.mesh.xyz/tachyon/', style: { padding: '30px' }  },
+    // { img: consensysLabs, url: 'https://labs.mesh.xyz/tachyon/', style: { padding: '30px' }  },
     { img: protocol, url: 'https://protocol.ai', style: { flex: '0 0 22%' }},
     { img: filecoin, url: 'https://filecoin.io', style: { flex: '0 0 8%' }},
   ], 
   [
     { img: textile, url: 'https://textile.io' },
-    { img: codefi, url: 'https://codefi.consensys.net' },
+    // { img: codefi, url: 'https://codefi.consensys.net' },
   ]
 ]
 
