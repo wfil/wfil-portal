@@ -39,7 +39,7 @@ const RequestAccess = () => {
         ? (<p>Thank you! follow our path to mainnet launch in our community channels</p>)
         : (
           <>
-            <p>Stay Tuned for Mainnet Launch! 🚀</p>
+            <p>Subscribe for news! 🚀</p>
             <div className="request-access-form-input">
               <input
                 className={formError ? 'has-error' : ''}
@@ -49,7 +49,7 @@ const RequestAccess = () => {
                 placeholder="Enter your email"
               />
             </div>
-            <Button onClick={sendVisit}>Request Access</Button>
+            <Button onClick={sendVisit}>Subscribe</Button>
           </>
         )
       }
