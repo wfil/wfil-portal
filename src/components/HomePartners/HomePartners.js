@@ -11,7 +11,7 @@ import './HomePartners.scss';
 const PARTNERS = [
   [
     { img: tachyon, url: 'https://labs.mesh.xyz/tachyon/' },
-    { img: filecoin, url: 'https://filecoin.io', style: { flex: '0 0 8%' }},
+    // { img: filecoin, url: 'https://filecoin.io', style: { flex: '0 0 8%' }},
     { img: textile, url: 'https://textile.io' },
   ], 
   [
