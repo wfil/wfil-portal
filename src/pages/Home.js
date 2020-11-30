@@ -1,6 +1,7 @@
 import React from 'react';
 
 import HomeHero from '../components/HomeHero';
+import HomeBenefits from '../components/HomeBenefits';
 import HomePartners from '../components/HomePartners';
 import HomeContact from '../components/HomeContact';
 import Layout from '../components/layout/Layout';
@@ -11,6 +12,7 @@ const Home = () => {
   return (
     <Layout>
       <HomeHero />
+      <HomeBenefits />
       <HomePartners />
       <HomeContact />
     </Layout>
