@@ -12,7 +12,7 @@ const HomeFaqs = () => {
         <br/>
         <br/>
         <p>
-          Read the full article on
+          Read the full article on&nbsp;
           <a href="https://medium.com/wfil/wfil-wfil-labs-vision-fe4680906161" target="_blank" rel="noopener noreferrer">Medium</a>
           </p>
       </p>
