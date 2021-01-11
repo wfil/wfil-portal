@@ -11,19 +11,23 @@ const HomeBenefits = () => {
       <h3>WFIL Ecosystem</h3>
       <div className="home-benefits-list">
         <div className="home-benefits-item">
-          <div className="home-benefits-item-img">
-            <img src={bistrot} />
-          </div>
-          <div className="home-benefits-item-title">WFIL Bistrot</div>
+          <a href="https://bistrot.wfil.network/" target="_blank" rel="noopener noreferrer">
+            <div className="home-benefits-item-img">
+              <img src={bistrot} />
+            </div>
+            <div className="home-benefits-item-title">WFIL Bistrot</div>
+          </a>
           <p className="home-benefits-item-desc">
             Get WFIL/FIL
           </p>
         </div>
         <div className="home-benefits-item">
-          <div className="home-benefits-item-img">
-            <img src={lending} />
-          </div>
-          <div className="home-benefits-item-title">WFIL Lending</div>
+          <a href="https://storage.wfil.network/" target="_blank" rel="noopener noreferrer">
+            <div className="home-benefits-item-img">
+              <img src={lending} />
+            </div>
+            <div className="home-benefits-item-title">WFIL Lending</div>
+          </a>
           <p className="home-benefits-item-desc">
             Access to Filecoin Liquidity for Miners
           </p>

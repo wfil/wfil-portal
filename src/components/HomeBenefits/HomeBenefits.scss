@@ -17,6 +17,10 @@
       @include flex-complete($direction: column, $align: center);
       width: 30%;
 
+      a { 
+        @include flex-complete($direction: column, $align: center);
+      }
+
       .home-benefits-item-img {
         max-width: 40%;
         margin-bottom: 20px;
