@@ -22,7 +22,7 @@ const HomeBenefits = () => {
           </p>
         </div>
         <div className="home-benefits-item">
-          <a href="https://storage.wfil.network/" target="_blank" rel="noopener noreferrer">
+          <a href="#" rel="noopener noreferrer">
             <div className="home-benefits-item-img">
               <img src={lending} />
             </div>
@@ -33,10 +33,12 @@ const HomeBenefits = () => {
           </p>
         </div>
         <div className="home-benefits-item">
-          <div className="home-benefits-item-img">
-            <img src={storage} />
-          </div>
-          <div className="home-benefits-item-title">WFIL Storage</div>
+          <a href="https://storage.wfil.network/" target="_blank" rel="noopener noreferrer">
+            <div className="home-benefits-item-img">
+              <img src={storage} />
+            </div>
+            <div className="home-benefits-item-title">WFIL Storage</div>
+          </a>
           <p className="home-benefits-item-desc">
             Buy Storage on Filecoin
           </p>
