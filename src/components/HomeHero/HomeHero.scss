@@ -26,6 +26,10 @@
     margin-top: 5%;
   }
 
+  p {
+    font-size: 3rem;
+    color: darkgray;
+  }
   .blue {
     color: $color-primary;
   }
@@ -44,5 +48,6 @@
     }
     h1 { font-size: 5rem; }
     h2 { font-size: 3rem; }
+    p { font-size: 2rem; }
   }
 }

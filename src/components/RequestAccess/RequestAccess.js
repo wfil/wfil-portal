@@ -7,7 +7,7 @@ const RequestAccess = () => {
   return (
     <div className="request-access-form">
       <Button href="https://wfil.substack.com/welcome" alias="link" target="_blank" rel="noopener noreferrer">
-        Subscribe for News! 🚀
+        Get Early Access!
       </Button>
     </div>
   )

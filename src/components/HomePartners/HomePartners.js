@@ -14,10 +14,10 @@ const PARTNERS = [
     // { img: filecoin, url: 'https://filecoin.io', style: { flex: '0 0 8%' }},
     { img: textile, url: 'https://textile.io' },
   ], 
-  [
-    // { img: protocol, url: 'https://protocol.ai', style: { flex: '0 0 22%' }},
-    // { img: codefi, url: 'https://codefi.consensys.net' },
-  ]
+  // [
+  //   { img: protocol, url: 'https://protocol.ai', style: { flex: '0 0 22%' }},
+  //   { img: codefi, url: 'https://codefi.consensys.net' },
+  // ]
 ]
 
 const HomePartners = () => {
