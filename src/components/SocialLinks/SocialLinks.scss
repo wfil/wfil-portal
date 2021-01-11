@@ -1,0 +1,17 @@
+@import '../../scss/abstracts';
+
+.social-links {
+  @include flex-complete($justify: space-between);
+  a {
+    margin-left: 10px;
+    path { fill: $color-white; }
+
+    &:hover {
+      path { fill: $color-grey; }
+    }
+
+    &:last-child {
+      margin-left: 15px;
+    }
+  }
+}

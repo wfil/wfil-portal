@@ -11,10 +11,10 @@ const HomeFaqs = () => {
         <br/>
         <br/>
         <br/>
-        <p>
+        <span>
           Read the full article on&nbsp;
           <a href="https://medium.com/wfil/wfil-wfil-labs-vision-fe4680906161" target="_blank" rel="noopener noreferrer">Medium</a>
-          </p>
+        </span>
       </p>
       {/* <div className="home-faqs-list">
         <div className="home-faqs-item">

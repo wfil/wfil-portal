@@ -2,5 +2,8 @@
 
 footer {
   padding: 2rem;
-  text-align: center;
+  background-color: $color-primary;
+  color: $color-white;
+
+  @include flex-complete($justify: space-between);
 }
