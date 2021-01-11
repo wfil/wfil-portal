@@ -17,6 +17,11 @@
       @include flex-complete($direction: column, $align: center);
       width: 30%;
 
+      .home-benefits-item-img {
+        max-width: 40%;
+        margin-bottom: 20px;
+        img { width: 100%; }
+      }
       .home-benefits-item-title {
         font-size: 2.5rem;
         color: $color-primary;

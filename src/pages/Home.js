@@ -13,9 +13,9 @@ const Home = () => {
   return (
     <Layout>
       <HomeHero />
+      <HomeFaqs />
       <HomeBenefits />
       <HomePartners />
-      <HomeFaqs />
       <HomeContact />
     </Layout>
   );
