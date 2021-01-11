@@ -7,6 +7,7 @@ import Button from '../../Button';
 
 import Logo from '../../Logo'
 import './Header.scss';
+import SocialLinks from '../../SocialLinks';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -24,6 +25,9 @@ const Header = () => {
           <li><a href="https://medium.com/wfil" target="_blank" rel="noopener noreferrer">Blog</a></li>
           <li><Button alias="link" target="_blank" rel="noopener noreferrer" href="https://bistrot.wfil.network">Launch app</Button></li>
         </ul>
+        <div className={`header-social ${menuOpen ? 'is-open' : ''}`}>
+          <SocialLinks />
+        </div>
       </Flex>
     </header>
   )

@@ -18,6 +18,9 @@ header {
       }
     }
   }
+  .header-social {
+    display: none;
+  }
   @media all and (max-width: $mobile-width) {
     .burger { display: block; }
     ul {
@@ -48,6 +51,27 @@ header {
       &.is-open {
         left: 0;
       }
+    }
+  }
+  .header-social {
+    display: block;
+    position: fixed;
+    width: 100%;
+    background: $color-primary;
+    left: 0;
+    bottom: -70px;
+    opacity: 0;
+    z-index: 2;
+    padding: 1rem 2rem;
+    transition: all 0.3s;
+
+    a {
+      margin-right: 10px;
+    }
+
+    &.is-open {
+      bottom: 0;
+      opacity: 1;
     }
   }
 }
