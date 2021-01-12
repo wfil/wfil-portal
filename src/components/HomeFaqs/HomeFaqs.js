@@ -7,12 +7,14 @@ const HomeFaqs = () => {
     <div className="home-faqs">
       <h3>Vision</h3>
       <p className="home-faqs-item-desc">
-        WFIL Labs is an open-source R&amp;D Lab. We built WFIL to bootstrap Filecoin adoption and development, unleashing the next generation of storage and financial applications.
+        WFIL Labs is an open-source R&amp;D Lab. We built WFIL to bootstrap Filecoin<br/>
+        adoption and development, unleashing the next generation of storage and<br/>
+        financial applications.
         <br/>
         <br/>
         <br/>
         <span>
-          Read the full article on&nbsp;
+          Explore WFIL Labs Vision on&nbsp;
           <a href="https://medium.com/wfil/wfil-wfil-labs-vision-fe4680906161" target="_blank" rel="noopener noreferrer">Medium</a>
         </span>
       </p>

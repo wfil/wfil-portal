@@ -22,7 +22,7 @@ const HomeBenefits = () => {
           </p>
         </div>
         <div className="home-benefits-item">
-          <a href="#" rel="noopener noreferrer">
+          <a href="https://lending.wfil.network/" target="_blank" rel="noopener noreferrer">
             <div className="home-benefits-item-img">
               <img src={lending} />
             </div>
